@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="akan.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <div class="row" id="intro">
+            <div class="col-md-12">
+              <h1>Akan Names</h1>
+              <p>Akan names are derived from people of Ghana. They frequently name their children after the day of the week
+                they were born
+                and the order in which they were born.
+                 <br>
+                The application helps generate a person's Akan name when they input their birth details.</p>
+            </div>
+          </div>
+          <div class="row" id="inst">
+            <div class="panel col-md-6">
+              <h2>What is your Akan name?</h2>
+            </div>
+            <div class="row">
+              <div class="panel col-md-6">
+
+                <form class="forms">
+                  <div class="form-group">
+                    <label for="year" class="labels">Year:</label>
+                    <input type="number" class="yr" name="year" placeholder="  example2000" id="year" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="month" class="labels">Month:</label>
+                    <input type="number" class="mth" name="month" placeholder="example 7" id="month" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="day" class="labels">Day of month:</label>
+                    <input type="number" class="day" name="day" placeholder=" example15" id="dayOfMonth" required>
+                  </div>
+                  <div class="radio-button" id="gender">
+                    <input type="radio" class="genders labels" id="rad1" name="gender" checked required>Male
+                    <input type="radio" class="genders labels" id="rad2" name="gender" required>Female
+                  </div>
+                  <br>
+                  <button type="button" value="Submit" name="Button" onclick="akanFunction()">Submit</button>
+                </form>
+    
+                <h1 id="result"><strong>Name</strong></h1>
+    
+            </div>
+              </div>
+            </div>
+        </div>
+            
+        </form>
+        <script src="akan.js">
+        </script>
+</body>
+</html>

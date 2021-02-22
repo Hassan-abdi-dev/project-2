@@ -1,0 +1,50 @@
+body{
+    background-image: url(/ayub/Africa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#names{
+    font-size: 15px;
+}
+#names h2{
+    color: ivory;
+    font-size: 19px;
+    font-family: 'Rye', cursive;
+}
+.forms{
+    text-align: center;
+    border: spacing 1px;;
+
+}
+#names li{
+    font-family: 'Arya', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+#intro h1{
+    text-align: center;
+    color: white;
+    font-family: 'Rye', cursive;
+    margin-top: 0;
+}
+#intro p{
+    font-family: 'Arya', sans-serif;
+    color:white;
+    font-size: 15px;
+}
+#inst{
+    font-family: 'Rye', cursive;
+    color: white;
+}
+.btn{
+    width: 250px;
+    border-radius: 10px;
+  }
+#result{
+    margin-top: 30px;
+    color: solid white;
+    font-size: 28px;
+  }
+  @media only screen and (max-width: 600px) {
+     }
