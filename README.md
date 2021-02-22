@@ -1,2 +1,11 @@
 # project-2
-birtday project
+
+Project Description;
+ The web aplication helps you know your Akan name by calculating
+ the year, date and month.
+ 
+ Author: Hassan Abdi
+ 
+ contributors: Hassan Abdi
+ License{MIT
+ 
