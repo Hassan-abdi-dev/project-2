@@ -9,7 +9,8 @@ Project Description;
  contributors: Hassan Abdi
  Languages used{
   1 Html.
-  2
+  2 Css
+  
   3
  
  License{MIT
