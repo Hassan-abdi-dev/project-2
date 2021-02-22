@@ -13,7 +13,7 @@ Project Description;
   
   2 Css.
   
-  3 Javascript
+  3 Javascript.
  
  License{MIT
    MIT License
